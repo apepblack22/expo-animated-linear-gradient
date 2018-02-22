@@ -1,5 +1,5 @@
-# react-native-animated-linear-gradient
-Animated linear gradient as background animation or other.
+# expo-animated-linear-gradient
+Animated linear gradient as background animation or other For ExpoSDK (React-Native).
 
 
 ## Example
@@ -7,20 +7,12 @@ Animated linear gradient as background animation or other.
 <p align="center">
   <img src="https://github.com/heineiuo/react-native-animated-linear-gradient/raw/master/.github/capture.gif" width=375 height=688>
 <br>
-
-## Install
-
-1. install [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient),  run `npm install react-native-linear-gradient --save` 
-2. run `react-native link react-native-linear-gradient`
-3. run `npm install react-native-animated-linear-gradient --save`
-
-
 ## Use
 
 ```javascript
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
-import AnimatedLinearGradient, {presetColors} from 'react-native-animated-linear-gradient'
+import AnimatedLinearGradient, {presetColors} from 'expo-animated-linear-gradient'
 
 class HelloWorldApp extends Component {
   render() {

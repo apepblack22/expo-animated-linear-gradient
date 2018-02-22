@@ -1,14 +1,14 @@
 {
-  "name": "react-native-animated-linear-gradient",
+  "name": "expo-animated-linear-gradient",
   "version": "1.1.2",
-  "description": "Animated linear gradient as background animation or other.",
+  "description": "Animated linear gradient as background animation or other for ExpoSDK.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heineiuo/react-native-animated-linear-gradient.git"
+    "url": "git+https://github.com/apepblack/expo-animated-linear-gradient.git"
   },
   "keywords": [
     "react-native",
@@ -22,7 +22,7 @@
   "peerDependencies": {
     "react": ">=15.0",
     "react-native": ">=0.30",
-    "react-native-linear-gradient": ">=1.5.0"
+    "expo": "^25.0.0"
   },
   "homepage": "https://github.com/heineiuo/react-native-animated-linear-gradient#readme",
   "devDependencies": {
